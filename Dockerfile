@@ -5,4 +5,5 @@ WORKDIR ./client
 RUN npm install npm
 RUN npm install
 EXPOSE 3000
-CMD ["npm","-D","start"]         
+CMD ["npm","-D","start"]    
+     
